@@ -9,6 +9,14 @@
     android:weightSum="1"
     tools:context="com.sargent.mark.todolist.MainActivity">
 
+    <!--Added Spinner in layout-->
+    <Spinner
+        android:id="@+id/cat_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/cat_arrays"
+        android:prompt="@string/cat_prompt" />
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"

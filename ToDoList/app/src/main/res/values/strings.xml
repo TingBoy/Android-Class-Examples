@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">ToDoList</string>
+    <string name="cat_prompt">Choose a Category</string>
+
+    <!--Array for items in spinner-->
+    <string-array name="cat_arrays">
+        <item>All</item>
+        <item>Completed</item>
+        <item>Work</item>
+        <item>Home</item>
+    </string-array>
 </resources>

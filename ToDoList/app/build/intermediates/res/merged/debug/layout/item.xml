@@ -9,13 +9,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20dp"
-        android:text="To do description"/>
+        android:text="To do description" />
 
     <TextView
         android:id="@+id/dueDate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="14dp"
-        android:text="06-04-2017"/>
+        android:text="06-04-2017" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>

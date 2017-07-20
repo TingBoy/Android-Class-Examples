@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.TimePicker;
 
 import java.util.Calendar;
@@ -20,6 +21,7 @@ import java.util.Calendar;
 public class AddToDoFragment extends DialogFragment{
 
     private EditText toDo;
+    private Spinner cat;
     private DatePicker dp;
     private Button add;
     private final String TAG = "addtodofragment";
@@ -36,6 +38,7 @@ public class AddToDoFragment extends DialogFragment{
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_to_do_adder, container, false);
         toDo = (EditText) view.findViewById(R.id.toDo);
+        cat = (Spinner) view.findViewById(R.id.cat_spinner);
         dp = (DatePicker) view.findViewById(R.id.datePicker);
         add = (Button) view.findViewById(R.id.add);
 

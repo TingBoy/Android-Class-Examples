@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.Spinner;
 
 import java.util.Calendar;
 
@@ -60,7 +61,7 @@ public class UpdateToDoFragment extends DialogFragment {
         int day = getArguments().getInt("day");
         id = getArguments().getLong("id");
         String description = getArguments().getString("description");
-        dp.updateDate(year, month, day);
+        dp.updateDate(year, month-1, day);
 
         toDo.setText(description);
 
@@ -70,7 +71,7 @@ public class UpdateToDoFragment extends DialogFragment {
             public void onClick(View v) {
                 UpdateToDoFragment.OnUpdateDialogCloseListener activity = (UpdateToDoFragment.OnUpdateDialogCloseListener) getActivity();
                 Log.d(TAG, "id: " + id);
-                activity.closeUpdateDialog(dp.getYear(), dp.getMonth(), dp.getDayOfMonth(), toDo.getText().toString(), id);
+                activity.closeUpdateDialog(dp.getYear(), dp.getMonth()+1, dp.getDayOfMonth(), toDo.getText().toString(), id);
                 UpdateToDoFragment.this.dismiss();
             }
         });

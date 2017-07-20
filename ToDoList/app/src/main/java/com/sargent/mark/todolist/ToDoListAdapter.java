@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.TextView;
 
 import com.sargent.mark.todolist.data.Contract;
@@ -47,6 +48,10 @@ public class ToDoListAdapter extends RecyclerView.Adapter<ToDoListAdapter.ItemHo
 
     public interface ItemClickListener {
         void onItemClick(int pos, String description, String duedate, long id);
+    }
+
+    public interface ItemLongClickListener {
+        void onItemLongClick(int pos, String description, String duedate, long id);
     }
 
     public ToDoListAdapter(Cursor cursor, ItemClickListener listener) {

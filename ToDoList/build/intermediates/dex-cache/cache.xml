@@ -2,40 +2,139 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/Users/mark/.android/build-cache/714aa8b7bc8b4e35519217c99868c9466b53b607/output/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Albert Ting\.android\build-cache\fe7f5e0797ff48bb5dae6d08470dcdfed82092e7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="D:\workspace\Android-Class-Examples\ToDoList\app\build\intermediates\pre-dexed\debug\classes_e5c59dd28c6a9155a4da3939bf0a3dfe7f6a5703.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Albert Ting\.android\build-cache\f28c8e9927b05ba0e9e353451902393793cdb58d\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
-        <dex dex="/Users/mark/Desktop/AndroidClass/inclass/ToDoList/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3050c67c5aac8e1dafcd3bdd9b03bb4a4e00d72e/classes.dex" />
+        <dex dex="D:\workspace\Android-Class-Examples\ToDoList\app\build\intermediates\pre-dexed\debug\classes_e38c50bd368d6a068a405ab441ee026f7a133a16.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/mark/Desktop/AndroidClass/inclass/ToDoList/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Albert Ting\.android\build-cache\98359be6cb05429aa9a6d30d4d3a92500c49507c\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/mark/Desktop/AndroidClass/inclass/ToDoList/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_1c41d78b6335b2d6cedf2ad8cbc37a7ea7f98c22/classes.dex" />
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="D:\workspace\Android-Class-Examples\ToDoList\app\build\intermediates\pre-dexed\debug\classes_cbd35cbfcde0605daad4b31bdedcf4f46d2ac441.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/mark/.android/build-cache/593250c810594616a1a15c7655a1a8c3b2646fc4/output/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Albert Ting\.android\build-cache\c69ff905176f90ace6f10876dfefd960a82af04f\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
-        <dex dex="/Users/mark/Desktop/AndroidClass/inclass/ToDoList/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8e0ef206c0c510729fb9cbbf7a4f25b276959675/classes.dex" />
+        <dex dex="D:\workspace\Android-Class-Examples\ToDoList\app\build\intermediates\pre-dexed\debug\classes_44df017e3eb2eef6d919d8ba764542a6a25eb070.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/mark/Desktop/AndroidClass/inclass/ToDoList/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Albert Ting\.android\build-cache\61aa985c18a3fcf0f61bb96cffe9358d6f13d2e1\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="2fc0ab07413d9cefa13ce76688f98e63890faaa3">
-        <dex dex="/Users/mark/Desktop/AndroidClass/inclass/ToDoList/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_248a94d252828eb83a606f0af078799be5f1c862/classes.dex" />
+        sha1="662d7533b25a666c649c10a16b42edfb95f25a4f">
+        <dex dex="D:\workspace\Android-Class-Examples\ToDoList\app\build\intermediates\pre-dexed\debug\classes_21642dfdc1a6c6306be519910c80568b87e4c3dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Albert Ting\.android\build-cache\ec1ffbd1fcf1e5f250e74ba660017e481984c2fa\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="D:\workspace\Android-Class-Examples\ToDoList\app\build\intermediates\pre-dexed\debug\classes_66905a38d2be3a4c6aa75237cb71c265447a47bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="D:\workspace\Android-Class-Examples\ToDoList\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_2e1c771cc155ae1021ab00bd594e0e8088530657.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Albert Ting\.android\build-cache\26ea685c05403411a15c1cebc1baa6e907e08ca8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="D:\workspace\Android-Class-Examples\ToDoList\app\build\intermediates\pre-dexed\debug\classes_1a3dafbef0e2cd12b26834cb065a536b842b5c4a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Albert Ting\.android\build-cache\de6bce791390e1ff9431b14e302ffb9ef7801b78\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="D:\workspace\Android-Class-Examples\ToDoList\app\build\intermediates\pre-dexed\debug\classes_3c7461d8e59a2ff9b29f6526d0e100fca90b5968.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Albert Ting\.android\build-cache\66405fe6153513a078b442bf4a58d6cc89ebeee1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="D:\workspace\Android-Class-Examples\ToDoList\app\build\intermediates\pre-dexed\debug\classes_a01792a50047d5c4127e1adf644364c21ebf5fec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Albert Ting\.android\build-cache\9ffd8ba78b1cf3459e836bcc3c5d9d99195177ee\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="D:\workspace\Android-Class-Examples\ToDoList\app\build\intermediates\pre-dexed\debug\classes_13c2384daa4b00f3c8b3f6ed5d80edea7310bad6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-beta4\constraint-layout-solver-1.0.0-beta4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a9cb567dc008f570c28531720168f19148da965">
+        <dex dex="D:\workspace\Android-Class-Examples\ToDoList\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.0-beta4_0542069c5dc4e28a022cf567b30de325012a5470.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Albert Ting\.android\build-cache\6ae17051eee9b78f92524a0c439dcc647eec2cfd\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\workspace\Android-Class-Examples\ToDoList\app\build\intermediates\pre-dexed\debug\classes_eae5c4951b04b329084f9ea17df5e1fcfd06ad1a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Albert Ting\.android\build-cache\24ee5cff9926ef1dd0d617c591239cfb6bc5259f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="D:\workspace\Android-Class-Examples\ToDoList\app\build\intermediates\pre-dexed\debug\classes_ff9f7f2ea01cefd170c0af7beb521d0277495228.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Albert Ting\.android\build-cache\298f1ace0215ee63da64f9c1e79f42c29bd1931b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="D:\workspace\Android-Class-Examples\ToDoList\app\build\intermediates\pre-dexed\debug\classes_d48b4436bfc0eed6a8a6684d94276cce50195022.jar" />
     </item>
 
 </items>

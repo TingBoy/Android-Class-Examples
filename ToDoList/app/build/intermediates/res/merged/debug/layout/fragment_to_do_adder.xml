@@ -8,6 +8,13 @@
     android:weightSum="1"
     tools:context=".AddToDoFragment">
 
+    <Spinner
+        android:id="@+id/cat_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/cat_arrays"
+        android:prompt="@string/cat_prompt" />
+
     <EditText
         android:id="@+id/toDo"
         android:layout_width="match_parent"
